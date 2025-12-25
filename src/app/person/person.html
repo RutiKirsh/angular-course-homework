@@ -1,0 +1,17 @@
+<div *ngFor="let p of persons; let i = index">
+    <div *ngIf="p.age <= 50" class="person-card">
+        <div class="person-index" [innerText]="i+1"></div>
+        <div class="person-name"  [innerText] = "p.firstName + ' ' + p.lastName"></div>
+        <div appChangeSize class="person-details">
+            <span class="age" [innerText]="p.age"></span>
+            <span *ngIf="p.age > 20" class="age-warning" [innerText]="'*'"></span>
+        </div>
+        <div [innerText]="p.hight" [ngClass]="{'low-height': p.hight < 100}">
+        </div>
+        <img appRadius class="img" src="images/{{p.firstName}}.png" alt="Person Image">
+        <div></div>
+    
+        <button (click) = "DeleteIndex(i)">Delete</button>
+    </div>
+
+</div>

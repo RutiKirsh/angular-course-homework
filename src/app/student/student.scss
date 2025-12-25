@@ -1,0 +1,17 @@
+.students-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.student-card {
+  width: 260px;
+  padding: 1rem;
+  border: 2px solid #75B6A3;
+  border-radius: 12px;
+  background-color: #f7fdfb;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}

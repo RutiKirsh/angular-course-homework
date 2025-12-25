@@ -1,0 +1,67 @@
+/* עוטף כל הרשימה */
+:host {
+  display: block;
+  padding: 20px;
+  background-color: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+/* כל אדם = כרטיס */
+.person-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.person-card:hover {
+  transform: translateY(-2px);
+}
+
+/* אינדקס */
+.person-index {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+/* שם מלא */
+.person-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* פרטים */
+.person-details {
+  margin-top: 8px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+/* גיל */
+.age {
+  font-weight: 500;
+}
+
+/* כוכבית אדומה */
+.age-warning {
+  color: red;
+  font-weight: bold;
+}
+
+/* גובה נמוך */
+.low-height {
+  margin-top: 6px;
+  color: green;
+  font-size: 13px;
+}
+.img{
+    width:50px;
+    height:auto;
+}

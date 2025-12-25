@@ -1,0 +1,18 @@
+<section>
+    <div class="wrapper">
+        <img [src]="imagePath" alt="girl">
+        <div class="inputs">
+            <label>
+                <input type="text" [(ngModel)] = "firstName">
+                שם פרטי
+            </label>
+
+            <label >
+                <input   type="text" [(ngModel)] = "lastName" >
+                שם משפחה
+            </label>
+            <button (click)="onClick()">בדוק האם יש אות ג בשם המשפחה</button>
+            <h3>{{message}}</h3>
+        </div>
+    </div>
+</section>
