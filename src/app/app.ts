@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 // import { Student } from './student/student';
 import { Person } from './person/person';
 import { FormsModule } from '@angular/forms';
+import { Lesson5 } from './lesson5/lesson5';
+import { pipes } from './pipes/pipes';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, FormsModule, /*MyDetails, Student*/ Person],
+  imports: [CommonModule, FormsModule, /*MyDetails, Student*/ Person, Lesson5, ...pipes],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

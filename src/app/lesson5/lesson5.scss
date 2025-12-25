@@ -1,0 +1,58 @@
+/* עוטף הכל */
+:host {
+  display: block;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9fb;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* כותרת המספר */
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* כל div של input */
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* תוויות */
+label {
+  font-weight: 600;
+  color: #555;
+}
+
+/* שדות קלט */
+input[type="number"] {
+  width: 120px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #75b6a3;
+  box-shadow: 0 0 6px rgba(117, 182, 163, 0.4);
+}
+
+/* פסקה של אחוז */
+p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+  margin-top: 16px;
+}
