@@ -2,15 +2,16 @@ import { Component, signal } from '@angular/core';
 // import { MyDetails } from './my-details/my-details';
 import { CommonModule } from '@angular/common';
 // import { Student } from './student/student';
-import { Person } from './person/person';
+// import { Person } from './person/person';
 import { FormsModule } from '@angular/forms';
-import { Lesson5 } from './lesson5/lesson5';
-import { pipes } from './pipes/pipes';
+// import { Lesson5 } from './lesson5/lesson5';
+// import { pipes } from './pipes/pipes';
+import { ListNumbers } from './list-numbers/list-numbers';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, FormsModule, /*MyDetails, Student*/ Person, Lesson5, ...pipes],
+  imports: [CommonModule, FormsModule, /*MyDetails, Student Person, Lesson5, ...pipes,*/ ListNumbers],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

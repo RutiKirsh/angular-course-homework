@@ -1,0 +1,5 @@
+<div class="box">
+    <p [innerText] = "num"></p>
+    <button *ngIf = "length > 1" (click) = "onDelClicked()">מחק מספר</button>
+    <span *ngIf = "length == 1" [innerText] = "massage" class="red-class"  ></span>
+</div>

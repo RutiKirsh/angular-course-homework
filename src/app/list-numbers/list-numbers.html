@@ -1,0 +1,3 @@
+<div *ngFor = "let num of numbers">
+    <app-my-number [num] = "num" [length] = "numbers.length" (deleteNumber) = "deleteFromList($event)"></app-my-number>
+</div>
