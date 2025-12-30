@@ -1,0 +1,19 @@
+.details {
+  margin-bottom: 12px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.label {
+  color: #666;
+}
+
+.value {
+  font-weight: bold;
+  color: #333;
+}

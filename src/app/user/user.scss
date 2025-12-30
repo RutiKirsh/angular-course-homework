@@ -1,0 +1,22 @@
+.user-card {
+  max-width: 320px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1976d2;
+  margin: 8px 0 12px;
+}
+
+.footer {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+}

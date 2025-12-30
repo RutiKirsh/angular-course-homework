@@ -1,7 +1,14 @@
- <h1 style="text-align: center;">שיעורי בית:</h1>
+<h1 style="text-align: center;">שיעורי בית:</h1>
 <!-- <app-my-details></app-my-details> -->
 <!-- <app-student></app-student> -->
- <!-- <app-person></app-person>
+<!-- <app-person></app-person>
  <app-lesson5></app-lesson5> -->
- <!-- <app-my-number></app-my-number> -->
-<app-list-numbers> </app-list-numbers>
+<!-- <app-my-number></app-my-number> -->
+<!-- <app-list-numbers> </app-list-numbers> -->
+
+<app-user>
+    @if(flag){
+    <app-details></app-details>
+    }
+</app-user>
+<button (click)="flag=!flag"> הצג פרטים</button>
