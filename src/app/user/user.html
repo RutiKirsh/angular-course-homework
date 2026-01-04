@@ -1,4 +1,16 @@
+<mat-card appearance="outlined">
+  <mat-card-header>
+        <input matInput [(ngModel)]="name" placeholder="הכנס את שמך כאן" />
+  </mat-card-header>
+  <mat-card-actions>
+    <button matButton (click) = "openSnackBar()">תלחץ עלי</button>
+  </mat-card-actions>
+</mat-card>
 
+
+
+
+<!-- 
  <div class="user-card">
   <h1>שלום 👋</h1>
 
@@ -7,4 +19,4 @@
   <ng-content></ng-content>
 
   <p class="footer">זה אני, נעים להכיר!</p>
-</div>
+</div> -->

@@ -13,7 +13,7 @@ import { Details } from './details/details';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, FormsModule, /*MyDetails, Student Person, Lesson5, ...pipes,ListNumbers,*/  User, Details],
+  imports: [CommonModule, FormsModule, /*MyDetails, Student Person, Lesson5, ...pipes,ListNumbers, Details*/  User],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
